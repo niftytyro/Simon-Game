@@ -1,0 +1,85 @@
+body {
+	padding: 2rem 3rem 5rem;
+	background: #333333;
+	color: #cccccc;
+}
+
+.container {
+	width: 95%;
+	margin: auto;
+}
+
+.head {
+	width: 90%;
+	margin: 3rem auto 0;
+	font-size: 3rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sub-head {
+	width: 80%;
+	margin: 2rem auto 0;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.score {
+	width: 80%;
+	margin: 2rem auto 0;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+.tile {
+	background-color: #666699;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 6px;
+}
+
+.red {
+	background: red;
+	position: absolute;
+	left: 50%;
+	top: 25rem;
+	margin-left: -6rem;
+	margin-top: -6rem;
+}
+
+.blue {
+	background: blue;
+	position: absolute;
+	left: 50%;
+	top: 25rem;
+	margin-left: 1rem;
+	margin-top: -6rem;
+}
+
+.yellow {
+	background: yellow;
+	position: absolute;
+	left: 50%;
+	top: 25rem;
+	margin-left: -6rem;
+	margin-top: 1rem;
+}
+
+.green {
+	background: green;
+	position: absolute;
+	left: 50%;
+	top: 25rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+
+.flash {
+	animation: grow 0.15s;
+}
+
+@keyframes grow {
+	from {width: 6rem; height: 6rem;}
+	to {width: 6.5rem; height: 6.5rem;}
+}
